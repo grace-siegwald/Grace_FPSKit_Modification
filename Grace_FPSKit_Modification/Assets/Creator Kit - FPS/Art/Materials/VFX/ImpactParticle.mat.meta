@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 55ea8b854d05a2b4d9c3dc323e11c69d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Materials/VFX/ImpactParticle.mat
+  uploadId: 683077

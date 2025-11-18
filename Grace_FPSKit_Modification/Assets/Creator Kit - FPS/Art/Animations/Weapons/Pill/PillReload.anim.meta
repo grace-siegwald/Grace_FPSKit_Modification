@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a6c840a53e370b24283ca137fe609958
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Animations/Weapons/Pill/PillReload.anim
+  uploadId: 683077

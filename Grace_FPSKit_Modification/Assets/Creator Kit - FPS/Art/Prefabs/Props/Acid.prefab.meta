@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 64b1837b1cd40d541944cde538b260fe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Prefabs/Props/Acid.prefab
+  uploadId: 683077

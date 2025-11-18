@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f97c2eacb1863c64b94e7008f9489889
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Materials/VFX/TrailRenderer.mat
+  uploadId: 683077

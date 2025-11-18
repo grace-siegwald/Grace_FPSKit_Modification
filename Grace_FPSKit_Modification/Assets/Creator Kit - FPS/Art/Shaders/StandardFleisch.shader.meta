@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3ecce0ae2cd0c49be8ab8530e6041aba
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Shaders/StandardFleisch.shader
+  uploadId: 683077

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d5540cbcd59304a1e9be960dcdf78d68
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Textures/Ramps/DisplacementRamp.asset
+  uploadId: 683077

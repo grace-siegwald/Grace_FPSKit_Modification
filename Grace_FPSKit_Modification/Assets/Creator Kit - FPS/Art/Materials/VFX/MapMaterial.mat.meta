@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a2e1d69f89af3994dbaaa4122e8e055f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Materials/VFX/MapMaterial.mat
+  uploadId: 683077

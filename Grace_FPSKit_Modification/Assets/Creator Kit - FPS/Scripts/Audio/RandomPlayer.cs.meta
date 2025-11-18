@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4462cad2dd2455143b83d6d5d5fe7dd0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Scripts/Audio/RandomPlayer.cs
+  uploadId: 683077

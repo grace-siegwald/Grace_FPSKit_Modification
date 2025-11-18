@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bc513dca9b359aa49aac8365c74ad13d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Prefabs/VFX/Trail.prefab
+  uploadId: 683077

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9bba9cf244c53c5439505dfc96fdd11c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Prefabs/VFX/PillExplosion.prefab
+  uploadId: 683077

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 97efb429506bf91448b128ca0cca5245
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 13400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Data/PhysicMaterials/Pill_PhysicMaterial.physicMaterial
+  uploadId: 683077

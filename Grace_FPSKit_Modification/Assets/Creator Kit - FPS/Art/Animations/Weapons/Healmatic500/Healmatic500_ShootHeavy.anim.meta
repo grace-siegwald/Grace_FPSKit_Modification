@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 60d376dc37f821b4ea56e75a4a0ad65a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Animations/Weapons/Healmatic500/Healmatic500_ShootHeavy.anim
+  uploadId: 683077

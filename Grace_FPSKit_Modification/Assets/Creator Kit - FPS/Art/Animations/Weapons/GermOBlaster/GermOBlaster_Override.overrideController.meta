@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b90060196e74df248bf3fcea7d9f5a38
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Animations/Weapons/GermOBlaster/GermOBlaster_Override.overrideController
+  uploadId: 683077

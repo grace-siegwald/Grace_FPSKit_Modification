@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9c501c517cfc76c4594b0ad3a892fd81
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/PostProcessingProfiles/GlobalPostProcessingProfile
+    Profile.asset
+  uploadId: 683077

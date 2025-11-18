@@ -9,6 +9,36 @@
     "/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
+    "com.unity.2d.sprite@1.0.0": {
+      "name": "com.unity.2d.sprite",
+      "displayName": "2D Sprite",
+      "resolvedPath": "/Users/grace.siegwald/Documents/GitHub/Grace_FPSKit_Modification/Grace_FPSKit_Modification/Library/PackageCache/com.unity.2d.sprite@897b7eecf04e",
+      "fingerprint": "897b7eecf04ec94126f19c6ce2cba3404cc15178",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.2d.tilemap@1.0.0": {
+      "name": "com.unity.2d.tilemap",
+      "displayName": "2D Tilemap Editor",
+      "resolvedPath": "/Users/grace.siegwald/Documents/GitHub/Grace_FPSKit_Modification/Grace_FPSKit_Modification/Library/PackageCache/com.unity.2d.tilemap@43091c84adcf",
+      "fingerprint": "43091c84adcfda243cb780bb38208f1df066ce9b",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.ads@4.4.2": {
+      "name": "com.unity.ads",
+      "displayName": "Advertisement Legacy",
+      "resolvedPath": "/Users/grace.siegwald/Documents/GitHub/Grace_FPSKit_Modification/Grace_FPSKit_Modification/Library/PackageCache/com.unity.ads@a7b997f68a1d",
+      "fingerprint": "a7b997f68a1d40387ca4d33fc75578709c140a37",
+      "editorCompatibility": "2018.4.18f1",
+      "version": "4.4.2",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.ai.navigation@2.0.8": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",
@@ -16,6 +46,16 @@
       "fingerprint": "eb5635ad590d47cef2a5c920d9475cc222db3f67",
       "editorCompatibility": "6000.0.0a1",
       "version": "2.0.8",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.analytics@3.8.1": {
+      "name": "com.unity.analytics",
+      "displayName": "Analytics Library",
+      "resolvedPath": "/Users/grace.siegwald/Documents/GitHub/Grace_FPSKit_Modification/Grace_FPSKit_Modification/Library/PackageCache/com.unity.analytics@6cc66d58ac08",
+      "fingerprint": "6cc66d58ac08950316d3b86a26c92187aca1ddb0",
+      "editorCompatibility": "2019.3.0a1",
+      "version": "3.8.1",
       "source": "registry",
       "testable": false
     },
@@ -27,6 +67,16 @@
       "editorCompatibility": "2021.3.0f1",
       "version": "2.10.2",
       "source": "registry",
+      "testable": false
+    },
+    "com.unity.ext.nunit@2.0.5": {
+      "name": "com.unity.ext.nunit",
+      "displayName": "Custom NUnit",
+      "resolvedPath": "/Users/grace.siegwald/Documents/GitHub/Grace_FPSKit_Modification/Grace_FPSKit_Modification/Library/PackageCache/com.unity.ext.nunit@031a54704bff",
+      "fingerprint": "031a54704bffe39e6a0324909f8eaa4565bdebf2",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.5",
+      "source": "builtin",
       "testable": false
     },
     "com.unity.ide.rider@3.0.36": {
@@ -69,6 +119,36 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.nuget.newtonsoft-json@3.2.1": {
+      "name": "com.unity.nuget.newtonsoft-json",
+      "displayName": "Newtonsoft Json",
+      "resolvedPath": "/Users/grace.siegwald/Documents/GitHub/Grace_FPSKit_Modification/Grace_FPSKit_Modification/Library/PackageCache/com.unity.nuget.newtonsoft-json@74deb55db2a0",
+      "fingerprint": "74deb55db2a0c29ddfda576608bcb86abbd13ee6",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "3.2.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.postprocessing@3.5.0": {
+      "name": "com.unity.postprocessing",
+      "displayName": "Post Processing",
+      "resolvedPath": "/Users/grace.siegwald/Documents/GitHub/Grace_FPSKit_Modification/Grace_FPSKit_Modification/Library/PackageCache/com.unity.postprocessing@94edadb6c5ab",
+      "fingerprint": "94edadb6c5ab827a382b0d6f5f550866ffcfc586",
+      "editorCompatibility": "2019.4.19f1",
+      "version": "3.5.0",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.purchasing@4.12.2": {
+      "name": "com.unity.purchasing",
+      "displayName": "In App Purchasing",
+      "resolvedPath": "/Users/grace.siegwald/Documents/GitHub/Grace_FPSKit_Modification/Grace_FPSKit_Modification/Library/PackageCache/com.unity.purchasing@649c6c7b3b1b",
+      "fingerprint": "649c6c7b3b1b6277839041f4987c0a1e66176678",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "4.12.2",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.render-pipelines.universal@17.0.4": {
       "name": "com.unity.render-pipelines.universal",
       "displayName": "Universal Render Pipeline",
@@ -77,6 +157,26 @@
       "editorCompatibility": "6000.0.0a1",
       "version": "17.0.4",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.services.analytics@6.1.0": {
+      "name": "com.unity.services.analytics",
+      "displayName": "Analytics",
+      "resolvedPath": "/Users/grace.siegwald/Documents/GitHub/Grace_FPSKit_Modification/Grace_FPSKit_Modification/Library/PackageCache/com.unity.services.analytics@10a9ca5d5622",
+      "fingerprint": "10a9ca5d56226d26b71614c3ee36a91aaa253b96",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "6.1.0",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.services.core@1.14.0": {
+      "name": "com.unity.services.core",
+      "displayName": "Services Core",
+      "resolvedPath": "/Users/grace.siegwald/Documents/GitHub/Grace_FPSKit_Modification/Grace_FPSKit_Modification/Library/PackageCache/com.unity.services.core@9e81a5e38245",
+      "fingerprint": "9e81a5e382457b799480b311ce51187be99abbbf",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.14.0",
+      "source": "registry",
       "testable": false
     },
     "com.unity.test-framework@1.5.1": {
@@ -116,6 +216,16 @@
       "fingerprint": "6279e2b7c4858e56cca7f367cd38c49ef66778c9",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.9.7",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.xr.legacyinputhelpers@2.1.12": {
+      "name": "com.unity.xr.legacyinputhelpers",
+      "displayName": "XR Legacy Input Helpers",
+      "resolvedPath": "/Users/grace.siegwald/Documents/GitHub/Grace_FPSKit_Modification/Grace_FPSKit_Modification/Library/PackageCache/com.unity.xr.legacyinputhelpers@b7579e86f3b4",
+      "fingerprint": "b7579e86f3b456c909fda6b875fba7ab1eeb1322",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.1.12",
       "source": "registry",
       "testable": false
     },
@@ -183,6 +293,14 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.modules.hierarchycore@1.0.0": {
+      "name": "com.unity.modules.hierarchycore",
+      "displayName": "Hierarchy Core",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
@@ -235,6 +353,14 @@
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
       "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.screencapture",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.subsystems@1.0.0": {
+      "name": "com.unity.modules.subsystems",
+      "displayName": "Subsystems",
+      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -372,32 +498,6 @@
       "displayName": "XR",
       "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.xr",
       "version": "1.0.0",
-      "source": "builtin",
-      "testable": false
-    },
-    "com.unity.modules.subsystems@1.0.0": {
-      "name": "com.unity.modules.subsystems",
-      "displayName": "Subsystems",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.subsystems",
-      "version": "1.0.0",
-      "source": "builtin",
-      "testable": false
-    },
-    "com.unity.modules.hierarchycore@1.0.0": {
-      "name": "com.unity.modules.hierarchycore",
-      "displayName": "Hierarchy Core",
-      "resolvedPath": "/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.modules.hierarchycore",
-      "version": "1.0.0",
-      "source": "builtin",
-      "testable": false
-    },
-    "com.unity.ext.nunit@2.0.5": {
-      "name": "com.unity.ext.nunit",
-      "displayName": "Custom NUnit",
-      "resolvedPath": "/Users/grace.siegwald/Documents/GitHub/Grace_FPSKit_Modification/Grace_FPSKit_Modification/Library/PackageCache/com.unity.ext.nunit@031a54704bff",
-      "fingerprint": "031a54704bffe39e6a0324909f8eaa4565bdebf2",
-      "editorCompatibility": "2019.4.0a1",
-      "version": "2.0.5",
       "source": "builtin",
       "testable": false
     },

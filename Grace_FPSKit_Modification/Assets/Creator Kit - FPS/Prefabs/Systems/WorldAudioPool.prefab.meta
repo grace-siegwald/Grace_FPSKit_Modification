@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e89f11f0f3be4554f9832feee06f5cfd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Prefabs/Systems/WorldAudioPool.prefab
+  uploadId: 683077

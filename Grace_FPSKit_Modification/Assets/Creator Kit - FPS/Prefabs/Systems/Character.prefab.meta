@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 6ca000ead671ebe449deb210e0a19be8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Prefabs/Systems/Character.prefab
+  uploadId: 683077

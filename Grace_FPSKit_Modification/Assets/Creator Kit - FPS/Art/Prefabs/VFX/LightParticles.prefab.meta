@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3f1ddb7022225814aaa00dc7e4ebbfcf
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Prefabs/VFX/LightParticles.prefab
+  uploadId: 683077

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 13f1a379b9ac1c04ab9b4b454c4a1360
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Scripts/TriggerActionsSystem/TargetChecker.cs
+  uploadId: 683077

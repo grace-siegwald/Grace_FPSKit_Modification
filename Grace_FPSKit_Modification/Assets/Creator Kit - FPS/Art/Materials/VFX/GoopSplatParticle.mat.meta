@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3ea2e59d181ffce4e97d5d1d07a22c05
+timeCreated: 1473851832
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Materials/VFX/GoopSplatParticle.mat
+  uploadId: 683077

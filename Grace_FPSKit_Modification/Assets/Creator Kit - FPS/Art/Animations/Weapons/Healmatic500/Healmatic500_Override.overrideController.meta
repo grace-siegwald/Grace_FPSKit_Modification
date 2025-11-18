@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f28e486b2dd16c74fb63525e9fb874eb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Animations/Weapons/Healmatic500/Healmatic500_Override.overrideController
+  uploadId: 683077

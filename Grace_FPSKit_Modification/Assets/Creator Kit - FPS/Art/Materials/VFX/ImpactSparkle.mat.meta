@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 90138f8930ab75041811a24da0df8917
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Materials/VFX/ImpactSparkle.mat
+  uploadId: 683077

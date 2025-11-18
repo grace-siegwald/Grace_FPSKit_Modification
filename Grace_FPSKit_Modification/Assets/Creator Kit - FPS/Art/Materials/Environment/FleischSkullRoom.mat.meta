@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8b93cf7bd4e17584fa225f772e894a1e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Materials/Environment/FleischSkullRoom.mat
+  uploadId: 683077

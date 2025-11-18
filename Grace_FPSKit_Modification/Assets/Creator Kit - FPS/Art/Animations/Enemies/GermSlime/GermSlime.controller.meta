@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b449fb3696c3bcf458e13ff71271b59f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Animations/Enemies/GermSlime/GermSlime.controller
+  uploadId: 683077

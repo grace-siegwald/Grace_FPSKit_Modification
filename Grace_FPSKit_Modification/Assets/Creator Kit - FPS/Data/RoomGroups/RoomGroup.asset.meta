@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: acbb82fee7b44ab4196ec16244d96f54
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Data/RoomGroups/RoomGroup.asset
+  uploadId: 683077

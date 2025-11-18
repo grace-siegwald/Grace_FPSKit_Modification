@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b839185e8530797479d5b4df13785446
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Prefabs/Rooms/CorridorLong.prefab
+  uploadId: 683077

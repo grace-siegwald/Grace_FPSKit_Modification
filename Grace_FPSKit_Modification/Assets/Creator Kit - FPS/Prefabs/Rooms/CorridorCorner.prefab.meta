@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0cd31afd7f54bbc4183a5847d566e3d6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Prefabs/Rooms/CorridorCorner.prefab
+  uploadId: 683077

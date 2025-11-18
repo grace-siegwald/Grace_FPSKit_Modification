@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 547e1bb5b288bc14187ab3bdf87891f6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Prefabs/Targets/GermSlimeTarget.prefab
+  uploadId: 683077

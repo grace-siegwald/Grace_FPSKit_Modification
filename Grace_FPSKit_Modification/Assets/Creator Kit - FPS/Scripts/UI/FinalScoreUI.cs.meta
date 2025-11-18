@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 31396b92e642d2e47a1ad656a6e0b854
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Scripts/UI/FinalScoreUI.cs
+  uploadId: 683077

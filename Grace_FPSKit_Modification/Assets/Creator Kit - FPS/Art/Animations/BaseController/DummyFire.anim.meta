@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2489022d41afae44e98d8d6c9ea9948a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Animations/BaseController/DummyFire.anim
+  uploadId: 683077

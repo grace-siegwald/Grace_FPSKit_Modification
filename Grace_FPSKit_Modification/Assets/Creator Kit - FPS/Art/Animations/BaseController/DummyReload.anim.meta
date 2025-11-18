@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: befa1c735916be54fba9c5524f97b7bb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Animations/BaseController/DummyReload.anim
+  uploadId: 683077

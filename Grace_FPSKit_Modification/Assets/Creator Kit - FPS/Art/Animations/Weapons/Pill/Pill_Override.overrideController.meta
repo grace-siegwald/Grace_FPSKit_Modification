@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f782926bce957d4f92df0a898bada35
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Animations/Weapons/Pill/Pill_Override.overrideController
+  uploadId: 683077

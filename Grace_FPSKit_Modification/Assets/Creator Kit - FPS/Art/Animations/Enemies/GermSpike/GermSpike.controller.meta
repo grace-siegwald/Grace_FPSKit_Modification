@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 22f2151a6c1a3e24a87af9e69fa2016a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Animations/Enemies/GermSpike/GermSpike.controller
+  uploadId: 683077

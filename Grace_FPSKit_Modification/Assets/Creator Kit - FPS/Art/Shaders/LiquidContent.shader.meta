@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 08d60aa0b8f82194e8e11c54c9317ee1
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Shaders/LiquidContent.shader
+  uploadId: 683077

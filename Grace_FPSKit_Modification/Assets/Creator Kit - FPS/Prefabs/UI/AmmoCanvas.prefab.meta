@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 278b664212d79401587c44e39c1420cb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Prefabs/UI/AmmoCanvas.prefab
+  uploadId: 683077

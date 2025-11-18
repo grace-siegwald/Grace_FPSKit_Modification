@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5735905cc44894b448f3339c6739900f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Shaders/BubbleBurst.shader
+  uploadId: 683077

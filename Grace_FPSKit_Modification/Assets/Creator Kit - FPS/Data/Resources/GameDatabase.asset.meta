@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 448898722a78fe14eb2cec519d1fb3db
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Data/Resources/GameDatabase.asset
+  uploadId: 683077

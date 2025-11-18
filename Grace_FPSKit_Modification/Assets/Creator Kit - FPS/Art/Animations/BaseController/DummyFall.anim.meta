@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f47aad546ed6711499795ef2e0a969d3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Animations/BaseController/DummyFall.anim
+  uploadId: 683077

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d145ef7ec5c612648aba1716a7f53ac9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 24100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Audio/MainMixer.mixer
+  uploadId: 683077

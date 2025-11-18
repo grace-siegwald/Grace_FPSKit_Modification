@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8f3674ef011074f4e8e44077aa931259
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Materials/VFX/MuzzleFlash.mat
+  uploadId: 683077

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a64a789defa396745a04fb28a8ff0fbc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Materials/Environment/Acid_Bubble.mat
+  uploadId: 683077

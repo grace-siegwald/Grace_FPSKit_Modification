@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9c587e6e87c84304e9bc4cf8c4d56dc8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 149310
+  packageName: 'Unity Learn | Creator Kit: FPS | URP'
+  packageVersion: 4.0
+  assetPath: Assets/Creator Kit - FPS/Art/Animations/BaseController/DummyWalk.anim
+  uploadId: 683077
