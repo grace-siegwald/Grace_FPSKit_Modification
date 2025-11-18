@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Numerics;
+// using System.Threading.Tasks.Dataflow;
 using UnityEngine;
+using Vector3 = UnityEngine.Vector3;
+using Quaternion = UnityEngine.Quaternion;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -52,7 +56,10 @@ public class Controller : MonoBehaviour
 
     public bool Grounded => m_Grounded;
 
-    CharacterController m_CharacterController;
+    // CharacterController m_CharacterController;
+    // Replaced Character Controller with RigidBody and CapsuleCollider components
+    Rigidbody m_Rigidbody;
+    CapsuleCollider m_CapsuleCollider;
 
     bool m_Grounded;
     float m_GroundedTimer;
@@ -77,7 +84,11 @@ public class Controller : MonoBehaviour
         MainCamera.transform.SetParent(CameraPosition, false);
         MainCamera.transform.localPosition = Vector3.zero;
         MainCamera.transform.localRotation = Quaternion.identity;
-        m_CharacterController = GetComponent<CharacterController>();
+        // m_CharacterController = GetComponent<CharacterController>();
+        // Replaced Character Controller finder
+        m_Rigidbody = GetComponent<Rigidbody>();
+        m_CapsuleCollider = GetComponent<CapsuleCollider>();
+
 
         for (int i = 0; i < startingWeapons.Length; ++i)
         {
@@ -107,16 +118,21 @@ public class Controller : MonoBehaviour
         {
             PauseMenu.Instance.Display();
         }
-        
+
         FullscreenMap.Instance.gameObject.SetActive(Input.GetButton("Map"));
 
-        bool wasGrounded = m_Grounded;
+        // bool wasGrounded = m_Grounded;
         bool loosedGrounding = false;
-        
+
+        //Raycast downward to make sure we're on the ground
+        float rayDistance = (m_CapsuleCollider.height / 2f) + 0.1f;
+        Ray groundRay = new Ray(transform.position, Vector3.down);
+        m_Grounded = Physics.Raycast(groundRay, rayDistance);
+
         //we define our own grounded and not use the Character controller one as the character controller can flicker
         //between grounded/not grounded on small step and the like. So we actually make the controller "not grounded" only
         //if the character controller reported not being grounded for at least .5 second;
-        if (!m_CharacterController.isGrounded)
+        if (!m_Grounded)
         {
             if (m_Grounded)
             {
@@ -134,6 +150,7 @@ public class Controller : MonoBehaviour
             m_Grounded = true;
         }
 
+        
         Speed = 0;
         Vector3 move = Vector3.zero;
         if (!m_IsPaused && !LockControl)
@@ -141,7 +158,10 @@ public class Controller : MonoBehaviour
             // Jump (we do it first as 
             if (m_Grounded && Input.GetButtonDown("Jump"))
             {
-                m_VerticalSpeed = JumpSpeed;
+                Vector3 jumpVelocity = m_Rigidbody.linearVelocity;
+                jumpVelocity.y = JumpSpeed;
+                m_Rigidbody.linearVelocity = jumpVelocity;
+
                 m_Grounded = false;
                 loosedGrounding = true;
                 FootstepPlayer.PlayClip(JumpingAudioCLip, 0.8f,1.1f);
@@ -161,11 +181,19 @@ public class Controller : MonoBehaviour
                 move.Normalize();
 
             float usedSpeed = m_Grounded ? actualSpeed : m_SpeedAtJump;
-            
-            move = move * usedSpeed * Time.deltaTime;
-            
+
+            // OLD CharacterController Movement
+            // move = move * usedSpeed * Time.deltaTime;
+            // move = transform.TransformDirection(move);
+            // m_CharacterController.Move(move);
+
+            // New RigidBody Physics Movement
             move = transform.TransformDirection(move);
-            m_CharacterController.Move(move);
+            move = move * usedSpeed;
+
+            Vector3 targetVelocity = new Vector3(move.x, m_Rigidbody.linearVelocity.y, move.z);
+            m_Rigidbody.linearVelocity = Vector3.Lerp(m_Rigidbody.linearVelocity, targetVelocity, 0.1f);
+
             
             // Turn player
             float turnPlayer =  Input.GetAxis("Mouse X") * MouseSensitivity;
@@ -223,15 +251,15 @@ public class Controller : MonoBehaviour
         }
 
         // Fall down / gravity
-        m_VerticalSpeed = m_VerticalSpeed - 10.0f * Time.deltaTime;
-        if (m_VerticalSpeed < -10.0f)
-            m_VerticalSpeed = -10.0f; // max fall speed
-        var verticalMove = new Vector3(0, m_VerticalSpeed * Time.deltaTime, 0);
-        var flag = m_CharacterController.Move(verticalMove);
-        if ((flag & CollisionFlags.Below) != 0)
-            m_VerticalSpeed = 0;
+        // m_VerticalSpeed = m_VerticalSpeed - 10.0f * Time.deltaTime;
+        // if (m_VerticalSpeed < -10.0f)
+        //     m_VerticalSpeed = -10.0f; // max fall speed
+        // var verticalMove = new Vector3(0, m_VerticalSpeed * Time.deltaTime, 0);
+        // var flag = m_CharacterController.Move(verticalMove);
+        // if ((flag & CollisionFlags.Below) != 0)
+        //     m_VerticalSpeed = 0;
 
-        if (!wasGrounded && m_Grounded)
+        if (m_Grounded)
         {
             FootstepPlayer.PlayClip(LandingAudioClip, 0.8f,1.1f);
         }
