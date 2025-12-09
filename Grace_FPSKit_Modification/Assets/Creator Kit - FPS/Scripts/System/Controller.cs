@@ -281,6 +281,18 @@ public class Controller : MonoBehaviour
             Vector3 horizontalVelocity = new Vector3(m_Rigidbody.linearVelocity.x, 0, m_Rigidbody.linearVelocity.z);
             Speed = horizontalVelocity.magnitude;
 
+            
+            //---------------------- FIX for jittery gun animation ----------------------------------
+            if (actualSpeed > 0.5f)
+            {
+                Speed = 0f;
+            }
+            else
+            {
+                Speed = actualSpeed;
+            }
+
+
             if (Input.GetButton("Reload"))
                 m_Weapons[m_CurrentWeapon].Reload();
 
@@ -333,6 +345,13 @@ public class Controller : MonoBehaviour
         m_IsPaused = display;
         Cursor.lockState = display ? CursorLockMode.None : CursorLockMode.Locked;
         Cursor.visible = display;
+
+        //------------------FIXED camera infinitely turning when paused-----------------------------
+        if (display = true)
+        {
+            m_Rigidbody.linearVelocity = Vector3.zero;
+            m_Rigidbody.angularVelocity = Vector3.zero;
+        }
     }
 
     void PickupWeapon(Weapon prefab)
