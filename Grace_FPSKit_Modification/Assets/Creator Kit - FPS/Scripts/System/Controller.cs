@@ -39,6 +39,26 @@ public class Controller : MonoBehaviour
     public float RunningSpeed = 7.0f;
     public float JumpSpeed = 5.0f;
 
+    // -------- Step 1: Added these new Variables -----------
+    [Header("Physics Movement Settings")]
+    [Tooltip("How much force to apply when moving on ground")]
+    public float groundMoveForce = 50f;
+
+    [Tooltip("How much force to apply when moving in air")]
+    public float airMoveForce = 15f;
+
+    [Tooltip("Maximum speed player can move on ground")]
+    public float maxGroundSpeed = 8f;
+
+    [Tooltip("Maximum speed player can move in air")]
+    public float maxAirSpeed = 10f;
+
+    [Tooltip("How quickly player stops on ground (higher = stops faster)")]
+    public float groundDrag = 8f;
+
+    [Tooltip("How quickly player slows in air (lower = more momentum)")]
+    public float airDrag = 0.5f;
+
     [Header("Audio")]
     public RandomPlayer FootstepPlayer;
     public AudioClip JumpingAudioCLip;
@@ -187,14 +207,51 @@ public class Controller : MonoBehaviour
             // move = transform.TransformDirection(move);
             // m_CharacterController.Move(move);
 
-            // New RigidBody Physics Movement
-            move = transform.TransformDirection(move);
-            move = move * usedSpeed;
+            // OLD RigidBody Physics Movement
+            // move = transform.TransformDirection(move);
+            // move = move * usedSpeed;
 
-            Vector3 targetVelocity = new Vector3(move.x, m_Rigidbody.linearVelocity.y, move.z);
-            m_Rigidbody.linearVelocity = Vector3.Lerp(m_Rigidbody.linearVelocity, targetVelocity, 0.1f);
+            // Vector3 targetVelocity = new Vector3(move.x, m_Rigidbody.linearVelocity.y, move.z);
+            // m_Rigidbody.linearVelocity = Vector3.Lerp(m_Rigidbody.linearVelocity, targetVelocity, 0.1f);
+
+            //-------------- STEP 2: New movement code --------------------------------------------------------
+            // Convert input direction to "world space"
+            Vector3 inputDirection = transform.TransformDirection(move);
+            inputDirection.Normalize(); // Makes sure direction is 1 length ?
+
+            // Choose force and max speed values based on whether were grounded or not...
+            // condition ? valueiftrue : valueiffalse is a shorthand way to write an if-else statement
+            float moveForce = m_Grounded ? groundMoveForce : airMoveForce; // use "stronger" value on ground, weaker value in air
+            float maxSpeed = m_Grounded ? maxGroundSpeed : maxAirSpeed; 
+
+            // Only apply force if we're actually pressing the movement key(s)
+            if (inputDirection.magnitude > 0.1f)
+            {
+                // Calculate how fast we're currently moving
+                Vector3 currentVelocity = new Vector3(m_Rigidbody.linearVelocity.x, 0, m_Rigidbody.linearVelocity.z);
+                float currentSpeed = currentVelocity.magnitude;
+
+                // Only apply force if we're below max speed
+                if (currentSpeed < maxSpeed)
+                {
+                    // Apply force in the direction we're pressing
+                    Vector3 forceToApply = inputDirection * moveForce;
+                    // HERE is where was use ADDFORCE! We use ForceMode.Force for realistic acceleration
+                    m_Rigidbody.AddForce(forceToApply, ForceMode.Force);
+                
+                    // Clamp to max speed if we exceed it!
+                    if (currentSpeed >= maxSpeed)
+                    {
+                        Vector3 clampedVelocity = currentVelocity.normalized * maxSpeed;
+                        m_Rigidbody.linearVelocity = new Vector3(clampedVelocity.x, m_Rigidbody.linearVelocity.y, clampedVelocity.z);
+                    }
+                }
+            }
+            // Apply appropriate drag (friction/air resistance)
+            m_Rigidbody.linearDamping = m_Grounded ? groundDrag : airDrag;
 
             
+
             // Turn player
             float turnPlayer =  Input.GetAxis("Mouse X") * MouseSensitivity;
             m_HorizontalAngle = m_HorizontalAngle + turnPlayer;
@@ -216,7 +273,13 @@ public class Controller : MonoBehaviour
   
             m_Weapons[m_CurrentWeapon].triggerDown = Input.GetMouseButton(0);
 
-            Speed = move.magnitude / (PlayerSpeed * Time.deltaTime);
+            // ------------------------- STEP 3: Replace Speed Calculation --------------------------------
+            // old speed calculation:
+            // Speed = move.magnitude / (PlayerSpeed * Time.deltaTime);
+
+            // New: Calculate actual movement speed from RigidBody velocity
+            Vector3 horizontalVelocity = new Vector3(m_Rigidbody.linearVelocity.x, 0, m_Rigidbody.linearVelocity.z);
+            Speed = horizontalVelocity.magnitude;
 
             if (Input.GetButton("Reload"))
                 m_Weapons[m_CurrentWeapon].Reload();
