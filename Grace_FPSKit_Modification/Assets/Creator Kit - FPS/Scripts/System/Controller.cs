@@ -39,7 +39,7 @@ public class Controller : MonoBehaviour
     public float RunningSpeed = 7.0f;
     public float JumpSpeed = 5.0f;
 
-    // -------- Step 1: Added these new Variables -----------
+    // -------- CHANGE 1: Added these new Variables -----------
     [Header("Physics Movement Settings")]
     [Tooltip("How much force to apply when moving on ground")]
     public float groundMoveForce = 50f;
@@ -180,7 +180,10 @@ public class Controller : MonoBehaviour
             {
                 Vector3 jumpVelocity = m_Rigidbody.linearVelocity;
                 jumpVelocity.y = JumpSpeed;
-                m_Rigidbody.linearVelocity = jumpVelocity;
+                // m_Rigidbody.linearVelocity = jumpVelocity;
+                
+                // New jumping mechanism
+                m_Rigidbody.AddForce(jumpVelocity, ForceMode.Impulse);
 
                 m_Grounded = false;
                 loosedGrounding = true;
@@ -214,7 +217,7 @@ public class Controller : MonoBehaviour
             // Vector3 targetVelocity = new Vector3(move.x, m_Rigidbody.linearVelocity.y, move.z);
             // m_Rigidbody.linearVelocity = Vector3.Lerp(m_Rigidbody.linearVelocity, targetVelocity, 0.1f);
 
-            //-------------- STEP 2: New movement code --------------------------------------------------------
+            //-------------- CHANGE 2: New movement code --------------------------------------------------------
             // Convert input direction to "world space"
             Vector3 inputDirection = transform.TransformDirection(move);
             inputDirection.Normalize(); // Makes sure direction is 1 length ?
@@ -273,7 +276,7 @@ public class Controller : MonoBehaviour
   
             m_Weapons[m_CurrentWeapon].triggerDown = Input.GetMouseButton(0);
 
-            // ------------------------- STEP 3: Replace Speed Calculation --------------------------------
+            // ------------------------- CHANGE 3: Replace Speed Calculation --------------------------------
             // old speed calculation:
             // Speed = move.magnitude / (PlayerSpeed * Time.deltaTime);
 
